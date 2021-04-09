@@ -44,8 +44,6 @@ return result;
 /**
  * This function counts the number of distinct 
  * number (i.e. the number of cells)
- *
- * feel free to add auxiliary data structures and helper functions
  **/
 
 int cellCount(int image[IMAGE_SIZE][IMAGE_SIZE]){
@@ -94,8 +92,6 @@ void helperColor(int image[IMAGE_SIZE][IMAGE_SIZE],int label,int i,int j){
  * (i.e. unique number)
  * Hint: scan the array element by element, and explore each element as much as possible, 
  * when come to an already labelled one, relabell the array to form larger cell
- * 
- * feel free to add auxiliary data structures and helper functions
  **/
 void color(int image[IMAGE_SIZE][IMAGE_SIZE]){
     // insert your code for task 1.1 here
@@ -172,7 +168,6 @@ return result;
 //the function and all the helper functions (if any) should use pointer notation, 
 // instead of array index notation []. It is okey to use [] only when declaring extra arrays
 int cellCountPtr(int* image){
-    // insert your code for task 2.2 here
 	int i, j, count = 0;
     int labels[MAX_LABEL];
     for (i=0; i<IMAGE_SIZE; i++)
